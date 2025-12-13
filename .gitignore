@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.log
+
+# --- Virtualenv ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Jupyter / misc ---
+.ipynb_checkpoints/
+.DS_Store
+
+# --- HuggingFace / Transformers / Datasets caches ---
+.cache/
+**/.cache/
+hf_cache/
+datasets_cache/
+huggingface_cache/
+
+# --- Training outputs / checkpoints ---
+results*/
+runs*/
+checkpoints*/
+logs*/
+wandb/
+
+# --- Local merged model directories ---
+final_merged_model_llama/
+final_merged_model_qwen/
+Llama-3.2-1B-My-Finetune/
+Qwen2.5-1.5B-My-Finetune/
+
+# --- Model files (large) ---
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# --- OS / editor ---
+.vscode/
+.idea/
+*.swp
