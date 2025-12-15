@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "model_slug": "Qwen_Qwen2.5-3B-Instruct",
+  "sessions_evaluated": 200,
+  "TP": 19,
+  "FP": 181,
+  "TN": 0,
+  "FN": 0,
+  "accuracy": 0.095,
+  "precision": 0.095,
+  "recall": 1.0,
+  "f1": 0.17351598173515984,
+  "label_name": "brute_force",
+  "max_events": 40,
+  "max_chars": 3000,
+  "max_length": 1024,
+  "max_new_tokens": 40,
+  "use_4bit": true,
+  "dtype": "float16",
+  "out_dir": "out_compare/Qwen_Qwen2.5-3B-Instruct"
+}

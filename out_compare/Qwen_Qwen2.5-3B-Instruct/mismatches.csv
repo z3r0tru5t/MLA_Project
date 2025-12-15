@@ -1,0 +1,3014 @@
+model,session,true_label,true_is_bruteforce,pred_is_bruteforce,status,raw_preview
+Qwen/Qwen2.5-3B-Instruct,dee09d4ffed7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: dee09d4ffed7
+EVENTS:
+2025-06-17T14:52:33.020709Z login attempt [analyst_user/&HovwA0] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5f75c1270792,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5f75c1270792
+EVENTS:
+2025-06-17T11:39:52.004527Z login attempt [jane_smith/PP%@BcC7JzUz] succeeded
+2025-06-17T11:39:56.016168Z CMD: free -m
+2025-06-17T11:41:16.633657Z Connection lost after 121 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e1d9cb0283b4,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e1d9cb0283b4
+EVENTS:
+2025-06-17T11:47:32.635280Z login attempt [dev_user/rvT9lff9olMu] succeeded
+2025-06-17T11:47:33.739072Z CMD: pwd
+2025-06-17T11:49:54.773423Z Connection lost after 116 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ed79fc570516,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ed79fc570516
+EVENTS:
+2025-06-17T19:12:14.769574Z login attempt [john_doe/XtC3jH0O] succeeded
+2025-06-17T19:12:19.105794Z CMD: free -m
+2025-06-17T19:17:05.520815Z Connection lost after 118 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0922067f0513,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0922067f0513
+EVENTS:
+2025-06-16T20:50:15.514216Z login attempt [jane_smith/RgH#UX3MAcIq] succeeded
+2025-06-16T20:50:19.480279Z CMD: free -m
+2025-06-16T20:51:11.206645Z Connection lost after 249 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2725649938f3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2725649938f3
+EVENTS:
+2025-06-16T05:36:47.155085Z login attempt [john_doe/ZK9TneV] succeeded
+2025-06-16T05:36:51.974404Z CMD: whoami
+2025-06-16T05:37:33.637295Z Connection lost after 32 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5153f27893b5,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5153f27893b5
+EVENTS:
+2025-06-17T04:25:21.938498Z login attempt [analyst_user/M^oNnB] succeeded
+2025-06-17T04:25:23.944901Z CMD: whoami
+2025-06-17T04:28:14.449698Z Connection lost after 124 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ac7146267aa6,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ac7146267aa6
+EVENTS:
+2025-06-17T13:33:56.991234Z login attempt [dev_user/A2Q&gkT3Ooil] succeeded
+2025-06-17T13:33:59.238594Z CMD: free -m
+2025-06-17T13:35:20.167589Z Connection lost after 16 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5e86c6b98650,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5e86c6b98650
+EVENTS:
+2025-06-17T01:25:38.232638Z login attempt [jane_smith/Rg0j5MDh1] succeeded
+2025-06-17T01:25:41.873723Z CMD: df -h
+2025-06-17T01:27:41.045729Z Connection lost after 291 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5b898a5d2c47,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5b898a5d2c47
+EVENTS:
+2025-06-17T12:50:49.283782Z login attempt [jane_smith/MMTI9$!] succeeded
+2025-06-17T12:51:28.473989Z Connection lost after 40 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5a6f043c6e07,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5a6f043c6e07
+EVENTS:
+2025-06-16T10:18:58.136169Z login attempt [analyst_user/431Wbb] succeeded
+2025-06-16T10:20:24.567646Z Connection lost after 26 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,8e1a1439f22e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 8e1a1439f22e
+EVENTS:
+2025-06-16T20:34:33.422636Z login attempt [jane_smith/^jPIkx*7] succeeded
+2025-06-16T20:38:30.525572Z Connection lost after 189 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,bf391fa11a5a,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: bf391fa11a5a
+EVENTS:
+2025-06-16T06:10:01.614141Z login attempt [jane_smith/Q5Byu4ZcDEWV] succeeded
+2025-06-16T06:10:04.877333Z CMD: ls -la
+2025-06-16T06:12:43.836108Z Connection lost after 38 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e74b131660ec,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e74b131660ec
+EVENTS:
+2025-06-16T20:58:59.806417Z login attempt [jane_smith/FfHF$zt] succeeded
+2025-06-16T20:59:03.865141Z CMD: whoami
+2025-06-16T21:03:31.570659Z Connection lost after 152 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,4686995f7a45,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 4686995f7a45
+EVENTS:
+2025-06-16T07:54:45.777281Z login attempt [john_doe/5WdY$leEsR6] succeeded
+2025-06-16T07:54:49.106700Z CMD: whoami
+2025-06-16T07:55:31.097135Z Connection lost after 22 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,67c9e3dbfbb2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 67c9e3dbfbb2
+EVENTS:
+2025-06-15T18:51:59.296407Z login attempt [analyst_user/4*iS5z7gdX] succeeded
+2025-06-15T18:54:01.628159Z Connection lost after 246 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,632da643ba46,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 632da643ba46
+EVENTS:
+2025-06-17T09:32:00.505069Z login attempt [jane_smith/9#hGTKwGdjDD] succeeded
+2025-06-17T09:35:15.315779Z Connection lost after 116 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,79506fd38038,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 79506fd38038
+EVENTS:
+2025-06-16T23:06:31.802150Z login attempt [jane_smith/isa$cX] succeeded
+2025-06-16T23:06:55.214035Z Connection lost after 59 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0246be1f2ddd,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0246be1f2ddd
+EVENTS:
+2025-06-17T12:49:40.997179Z login attempt [analyst_user/#Eriye9IH] succeeded
+2025-06-17T12:53:17.572035Z Connection lost after 75 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,83c862634d48,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 83c862634d48
+EVENTS:
+2025-06-16T09:18:06.152358Z login attempt [dev_user/m0Ll@Fv%FM] succeeded
+2025-06-16T09:19:46.421096Z Connection lost after 127 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,7d62463793fb,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 7d62463793fb
+EVENTS:
+2025-06-16T00:44:20.182408Z login attempt [analyst_user/Sz#1n@BgHAWh] succeeded
+2025-06-16T00:44:23.626842Z CMD: whoami
+2025-06-16T00:48:23.908087Z Connection lost after 132 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,10bc64087962,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 10bc64087962
+EVENTS:
+2025-06-16T22:47:09.889562Z login attempt [jane_smith/!ht&0WNk6L] succeeded
+2025-06-16T22:48:17.060290Z Connection lost after 195 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,8d51c54f5b07,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 8d51c54f5b07
+EVENTS:
+2025-06-17T05:57:57.496623Z login attempt [jane_smith/!YQ8gSeNg] succeeded
+2025-06-17T05:57:58.717484Z CMD: ls -la
+2025-06-17T05:59:59.573728Z Connection lost after 11 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,09bfad5045e9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 09bfad5045e9
+EVENTS:
+2025-06-16T05:41:35.808393Z login attempt [john_doe/q0D70Iw] succeeded
+2025-06-16T05:41:37.621436Z CMD: whoami
+2025-06-16T05:45:02.026034Z Connection lost after 149 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0b3056e40a9c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0b3056e40a9c
+EVENTS:
+2025-06-15T20:19:12.949781Z login attempt [analyst_user/pv5dg2] succeeded
+2025-06-15T20:19:15.723952Z CMD: whoami
+2025-06-15T20:20:03.992847Z Connection lost after 235 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,84807229e18e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 84807229e18e
+EVENTS:
+2025-06-18T04:18:47.530465Z login attempt [dev_user/z!jh^3kV] succeeded
+2025-06-18T04:18:52.373491Z CMD: free -m
+2025-06-18T04:21:16.906399Z Connection lost after 75 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,93400df22089,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 93400df22089
+EVENTS:
+2025-06-18T07:10:05.263486Z login attempt [analyst_user/5#ZfeU$8XS*F] succeeded
+2025-06-18T07:10:08.305772Z CMD: whoami
+2025-06-18T07:11:20.060420Z Connection lost after 177 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b3573ae5fd30,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b3573ae5fd30
+EVENTS:
+2025-06-18T05:21:32.420163Z login attempt [dev_user/9rWxjLJ] succeeded
+2025-06-18T05:26:08.812299Z Connection lost after 286 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,21385b70f4d8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 21385b70f4d8
+EVENTS:
+2025-06-17T13:10:53.745236Z login attempt [dev_user/omzGer1E9TLY] succeeded
+2025-06-17T13:10:56.704270Z CMD: whoami
+2025-06-17T13:14:39.849083Z Connection lost after 183 seconds
+2025-06-17T13:14:48.135448Z login attempt [dev_user/KjGrz&] succeeded
+2025-06-17T13:16:51.0999..."
+Qwen/Qwen2.5-3B-Instruct,e7d4184a8dbf,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e7d4184a8dbf
+EVENTS:
+2025-06-18T01:41:27.827608Z login attempt [jane_smith/yf*tBu] succeeded
+2025-06-18T01:41:31.826272Z CMD: df -h
+2025-06-18T01:44:21.969298Z Connection lost after 163 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,bf611b23803d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: bf611b23803d
+EVENTS:
+2025-06-16T22:54:20.295229Z login attempt [dev_user/IiZV2vves0^] succeeded
+2025-06-16T22:57:01.638679Z Connection lost after 85 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,66039f793a45,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 66039f793a45
+EVENTS:
+2025-06-16T19:27:52.953906Z login attempt [jane_smith/5gj8IJljX] succeeded
+2025-06-16T19:27:57.231839Z CMD: uptime
+2025-06-16T19:31:36.862508Z Connection lost after 197 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2f6d817b0cc0,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2f6d817b0cc0
+EVENTS:
+2025-06-18T03:11:30.505938Z login attempt [jane_smith/z#NG$!D%] succeeded
+2025-06-18T03:15:50.331999Z Connection lost after 177 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,246f920dcf62,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 246f920dcf62
+EVENTS:
+2025-06-17T23:42:43.622275Z login attempt [analyst_user/4oT7ql5] succeeded
+2025-06-17T23:43:42.977193Z Connection lost after 137 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,dea4f1303471,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: dea4f1303471
+EVENTS:
+2025-06-15T22:31:57.095893Z login attempt [jane_smith/niyZ6z@@I] succeeded
+2025-06-15T22:31:59.858878Z CMD: pwd
+2025-06-15T22:35:36.962195Z Connection lost after 65 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f7129b37feba,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f7129b37feba
+EVENTS:
+2025-06-17T10:30:37.559341Z login attempt [john_doe/u#%EhOJ] succeeded
+2025-06-17T10:30:41.675902Z CMD: df -h
+2025-06-17T10:34:01.483878Z Connection lost after 142 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,91d55ee35d01,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 91d55ee35d01
+EVENTS:
+2025-06-16T17:54:49.644521Z login attempt [jane_smith/#kx4F*Y] succeeded
+2025-06-16T17:59:26.463931Z Connection lost after 291 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,dfd9fdbb6b1c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: dfd9fdbb6b1c
+EVENTS:
+2025-06-16T13:11:05.419437Z login attempt [john_doe/WYn5Sva$B%xM] succeeded
+2025-06-16T13:11:08.710463Z CMD: whoami
+2025-06-16T13:14:10.840242Z Connection lost after 66 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,1cfc04ea260e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 1cfc04ea260e
+EVENTS:
+2025-06-15T21:34:39.392613Z login attempt [john_doe/2F@#qFD2qv] succeeded
+2025-06-15T21:34:41.829372Z CMD: uptime
+2025-06-15T21:39:26.450103Z Connection lost after 22 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ca592f7196a8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ca592f7196a8
+EVENTS:
+2025-06-16T23:30:22.049597Z login attempt [dev_user/vL6OSPGJ] succeeded
+2025-06-16T23:30:25.138015Z CMD: uptime
+2025-06-16T23:31:37.868031Z Connection lost after 57 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,76ba11795d42,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 76ba11795d42
+EVENTS:
+2025-06-16T07:45:48.685849Z login attempt [jane_smith/24$x#n8^PU7] succeeded
+2025-06-16T07:45:53.226322Z CMD: ls -la
+2025-06-16T07:48:18.695746Z Connection lost after 53 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e85a9776b84d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e85a9776b84d
+EVENTS:
+2025-06-17T06:06:04.865025Z login attempt [jane_smith/ZA6FEa75jqwz] succeeded
+2025-06-17T06:06:06.449578Z CMD: uptime
+2025-06-17T06:07:15.015404Z Connection lost after 137 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,73043a71cc0a,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 73043a71cc0a
+EVENTS:
+2025-06-15T16:10:22.295227Z login attempt [dev_user/iH0EXIa6m$] succeeded
+2025-06-15T16:10:23.715101Z CMD: df -h
+2025-06-15T16:12:42.369958Z Connection lost after 67 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,55ff0d5ee5a9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 55ff0d5ee5a9
+EVENTS:
+2025-06-15T17:47:59.277033Z login attempt [john_doe/GrsF7n] succeeded
+2025-06-15T17:50:54.131687Z Connection lost after 85 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,78b972fdb18f,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 78b972fdb18f
+EVENTS:
+2025-06-16T16:43:22.979116Z login attempt [dev_user/HutOLPmuKr!p] succeeded
+2025-06-16T16:43:25.313181Z CMD: uptime
+2025-06-16T16:46:23.236799Z Connection lost after 21 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,9a2986f86b3e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 9a2986f86b3e
+EVENTS:
+2025-06-17T14:13:47.653414Z login attempt [dev_user/1SL&PIa] succeeded
+2025-06-17T14:13:51.678554Z CMD: ls -la
+2025-06-17T14:15:36.505959Z Connection lost after 148 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,512c5dcabeef,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 512c5dcabeef
+EVENTS:
+2025-06-16T04:46:03.067041Z login attempt [jane_smith/U@SGG0C@tT$] succeeded
+2025-06-16T04:46:05.439799Z CMD: free -m
+2025-06-16T04:50:57.062379Z Connection lost after 216 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,79db6f62b5b8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 79db6f62b5b8
+EVENTS:
+2025-06-16T03:25:24.642562Z login attempt [analyst_user/7A#8Mp556LC] succeeded
+2025-06-16T03:25:26.064587Z CMD: free -m
+2025-06-16T03:27:45.469458Z Connection lost after 82 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,414408bf2da3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 414408bf2da3
+EVENTS:
+2025-06-15T17:20:20.073436Z login attempt [analyst_user/&bHU62DQ] succeeded
+2025-06-15T17:20:24.012376Z CMD: whoami
+2025-06-15T17:23:50.789391Z Connection lost after 170 seconds
+2025-06-15T17:32:14.071401Z login attempt [analyst_user/@Sf6eZd] succeeded
+2025-06-15T17:32:15..."
+Qwen/Qwen2.5-3B-Instruct,14eb5e5a8b55,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 14eb5e5a8b55
+EVENTS:
+2025-06-17T18:52:57.487756Z login attempt [jane_smith/KQTwCnO] succeeded
+2025-06-17T18:53:01.769252Z CMD: uptime
+2025-06-17T18:53:50.831767Z Connection lost after 49 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,7cf27b799285,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 7cf27b799285
+EVENTS:
+2025-06-17T10:25:37.103620Z login attempt [jane_smith/&az&o4ArhK] succeeded
+2025-06-17T10:25:38.989204Z CMD: uptime
+2025-06-17T10:25:50.718148Z Connection lost after 209 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,26d72e26a0df,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 26d72e26a0df
+EVENTS:
+2025-06-17T12:28:16.663728Z login attempt [analyst_user/6TZIaOeNe6M] succeeded
+2025-06-17T12:28:20.049610Z CMD: pwd
+2025-06-17T12:30:59.873584Z Connection lost after 219 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,25669e6cf2cb,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 25669e6cf2cb
+EVENTS:
+2025-06-16T08:39:51.271250Z login attempt [dev_user/MMau^@] succeeded
+2025-06-16T08:39:55.899366Z CMD: uptime
+2025-06-16T08:44:03.014450Z Connection lost after 96 seconds
+2025-06-16T08:52:05.908782Z login attempt [dev_user/51MUexWTI@m] succeeded
+2025-06-16T08:52:08.071390..."
+Qwen/Qwen2.5-3B-Instruct,1754630e2aed,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 1754630e2aed
+EVENTS:
+2025-06-16T10:06:10.505580Z login attempt [analyst_user/3ar3xcv] succeeded
+2025-06-16T10:06:15.092123Z CMD: free -m
+2025-06-16T10:06:41.327230Z Connection lost after 200 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d0755844e2b2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d0755844e2b2
+EVENTS:
+2025-06-17T01:41:01.006454Z login attempt [jane_smith/M6vEqAPh#] succeeded
+2025-06-17T01:41:05.751917Z CMD: ls -la
+2025-06-17T01:44:52.771732Z Connection lost after 40 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,997f9d9cc35c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 997f9d9cc35c
+EVENTS:
+2025-06-17T05:55:18.018502Z login attempt [analyst_user/lsljYE7] succeeded
+2025-06-17T05:55:21.194024Z CMD: uptime
+2025-06-17T05:58:44.098682Z Connection lost after 226 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d6b8d2d432ce,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d6b8d2d432ce
+EVENTS:
+2025-06-16T18:53:49.164850Z login attempt [dev_user/tNeisUK] succeeded
+2025-06-16T18:53:53.825954Z CMD: uptime
+2025-06-16T18:54:03.269366Z Connection lost after 270 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,7804494f9dda,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 7804494f9dda
+EVENTS:
+2025-06-17T03:09:52.737455Z login attempt [dev_user/jS96he%M7] succeeded
+2025-06-17T03:12:34.680833Z Connection lost after 228 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e62bc3b73543,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e62bc3b73543
+EVENTS:
+2025-06-16T17:19:17.856858Z login attempt [dev_user/1ipnKJ@@$] succeeded
+2025-06-16T17:19:18.971602Z CMD: uptime
+2025-06-16T17:19:55.193841Z Connection lost after 113 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,689b5fdfaea6,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 689b5fdfaea6
+EVENTS:
+2025-06-15T22:14:14.751746Z login attempt [john_doe/E@zpIDGB] succeeded
+2025-06-15T22:14:18.150584Z CMD: uptime
+2025-06-15T22:17:08.656470Z Connection lost after 275 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,209378e0d931,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 209378e0d931
+EVENTS:
+2025-06-16T04:15:12.430997Z login attempt [john_doe/fQ%JphXlIk] succeeded
+2025-06-16T04:15:13.795320Z CMD: ls -la
+2025-06-16T04:18:00.900237Z Connection lost after 293 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,af42bf5a5602,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: af42bf5a5602
+EVENTS:
+2025-06-16T02:11:04.669935Z login attempt [john_doe/NaEk2qk@$O6] succeeded
+2025-06-16T02:11:07.102317Z CMD: pwd
+2025-06-16T02:13:18.879575Z Connection lost after 288 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,809ffe10deb0,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 809ffe10deb0
+EVENTS:
+2025-06-15T11:42:13.783561Z login attempt [dev_user/OHakV%7L98k] succeeded
+2025-06-15T11:42:17.854685Z CMD: free -m
+2025-06-15T11:44:54.975470Z Connection lost after 128 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f52e7bea0dc7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f52e7bea0dc7
+EVENTS:
+2025-06-17T16:38:33.457647Z login attempt [analyst_user/rezVrgTe*t] succeeded
+2025-06-17T16:38:36.687607Z CMD: free -m
+2025-06-17T16:42:31.783255Z Connection lost after 282 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,a31cc5f87944,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: a31cc5f87944
+EVENTS:
+2025-06-15T11:59:54.934506Z login attempt [jane_smith/rFvDQsM!jIb] succeeded
+2025-06-15T11:59:58.030934Z CMD: uptime
+2025-06-15T12:01:47.529633Z Connection lost after 10 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,50a2742a7291,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 50a2742a7291
+EVENTS:
+2025-06-15T09:09:27.448609Z login attempt [analyst_user/@YA6#ENpp] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c535f7616d2b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c535f7616d2b
+EVENTS:
+2025-06-18T00:07:03.589056Z login attempt [jane_smith/5S25DL$] succeeded
+2025-06-18T00:07:06.481028Z CMD: uptime
+2025-06-18T00:10:15.538413Z Connection lost after 183 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d0fdb956dc6b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d0fdb956dc6b
+EVENTS:
+2025-06-15T21:51:31.128423Z login attempt [dev_user/hqvbr%CJ] succeeded
+2025-06-15T21:51:34.242530Z CMD: whoami
+2025-06-15T21:56:30.474967Z Connection lost after 232 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,3a57be65fd6d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 3a57be65fd6d
+EVENTS:
+2025-06-16T09:42:08.086324Z login attempt [jane_smith/J%0k2CUvd] succeeded
+2025-06-16T09:42:11.495645Z CMD: whoami
+2025-06-16T09:45:07.173343Z Connection lost after 17 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ba9adc6ece12,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ba9adc6ece12
+EVENTS:
+2025-06-18T01:33:22.525164Z login attempt [jane_smith/@xed$aEIXJ] succeeded
+2025-06-18T01:33:24.387838Z CMD: pwd
+2025-06-18T01:37:59.702237Z Connection lost after 273 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e966ec1a7dc7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e966ec1a7dc7
+EVENTS:
+2025-06-16T05:43:24.344908Z login attempt [jane_smith/kmRMEMhlzS] succeeded
+2025-06-16T05:43:28.321313Z CMD: df -h
+2025-06-16T05:45:13.159447Z Connection lost after 125 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,1f829b144fe5,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 1f829b144fe5
+EVENTS:
+2025-06-15T19:58:37.379401Z login attempt [dev_user/ry7UDvU$H] succeeded
+2025-06-15T19:58:38.477869Z CMD: whoami
+2025-06-15T20:02:31.368777Z Connection lost after 135 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,40a87bc8d3da,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 40a87bc8d3da
+EVENTS:
+2025-06-18T06:12:41.118398Z login attempt [john_doe/tqU*XfU!8pKf] succeeded
+2025-06-18T06:12:45.630802Z CMD: pwd
+2025-06-18T06:12:52.108360Z Connection lost after 277 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,072bcb19321b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 072bcb19321b
+EVENTS:
+2025-06-15T09:04:39.767203Z login attempt [jane_smith/g5prNHFslc$h] succeeded
+2025-06-15T09:04:42.494414Z CMD: df -h
+2025-06-15T09:07:31.377120Z Connection lost after 80 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,24763c2274eb,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 24763c2274eb
+EVENTS:
+2025-06-17T17:12:59.690218Z login attempt [analyst_user/Ab4vFrUe!e] succeeded
+2025-06-17T17:13:02.434184Z CMD: uptime
+2025-06-17T17:15:59.049533Z Connection lost after 53 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,96895f62d735,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 96895f62d735
+EVENTS:
+2025-06-17T06:02:45.006276Z login attempt [dev_user/Hzs9Hkr] succeeded
+2025-06-17T06:02:46.460485Z CMD: df -h
+2025-06-17T06:05:27.531911Z Connection lost after 99 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2e52e9b17d1f,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2e52e9b17d1f
+EVENTS:
+2025-06-15T13:45:58.076818Z login attempt [john_doe/3vTvVV] succeeded
+2025-06-15T13:46:02.231879Z CMD: free -m
+2025-06-15T13:48:48.884526Z Connection lost after 199 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c87d48a65a01,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c87d48a65a01
+EVENTS:
+2025-06-18T02:43:10.619961Z login attempt [analyst_user/Zc^uG5] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e92c16a57179,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e92c16a57179
+EVENTS:
+2025-06-15T17:51:16.104974Z login attempt [jane_smith/uDRRWv8!rXz] succeeded
+2025-06-15T17:51:17.991350Z CMD: free -m
+2025-06-15T17:53:00.981537Z Connection lost after 57 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,951ef2943ebf,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 951ef2943ebf
+EVENTS:
+2025-06-16T08:38:47.702195Z login attempt [analyst_user/LopqYO] succeeded
+2025-06-16T08:38:52.113389Z CMD: whoami
+2025-06-16T08:40:36.290901Z Connection lost after 264 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,caf438eb020d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: caf438eb020d
+EVENTS:
+2025-06-17T07:21:21.772926Z login attempt [dev_user/Z45pdF] succeeded
+2025-06-17T07:21:25.761712Z CMD: uptime
+2025-06-17T07:25:55.222095Z Connection lost after 80 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ce132688e3bd,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ce132688e3bd
+EVENTS:
+2025-06-18T06:04:40.419823Z login attempt [analyst_user/rqlG%*H] succeeded
+2025-06-18T06:04:42.582953Z CMD: ls -la
+2025-06-18T06:05:34.506987Z Connection lost after 210 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0dda7b173827,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0dda7b173827
+EVENTS:
+2025-06-16T21:57:49.388977Z login attempt [john_doe/DYEuM5uFf2a] succeeded
+2025-06-16T21:57:51.797644Z CMD: whoami
+2025-06-16T22:00:36.128613Z login attempt [john_doe/qNeWo3] succeeded
+2025-06-16T22:00:37.906561Z CMD: whoami
+2025-06-16T22:01:38.518686Z Connection lost aft..."
+Qwen/Qwen2.5-3B-Instruct,647987bb350c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 647987bb350c
+EVENTS:
+2025-06-18T05:59:45.200686Z login attempt [john_doe/JUzOWTsi] succeeded
+2025-06-18T05:59:49.144794Z CMD: df -h
+2025-06-18T06:00:41.054052Z Connection lost after 5 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c56e66839967,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c56e66839967
+EVENTS:
+2025-06-15T22:37:14.003169Z login attempt [dev_user/^eeoCFe9] succeeded
+2025-06-15T22:37:17.538820Z CMD: ls -la
+2025-06-15T22:41:56.857275Z Connection lost after 177 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c0b4c63e01a5,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c0b4c63e01a5
+EVENTS:
+2025-06-17T06:21:47.412408Z login attempt [dev_user/ki$kK#NfmiU] succeeded
+2025-06-17T06:21:49.839959Z CMD: pwd
+2025-06-17T06:22:21.058436Z Connection lost after 279 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,188de0e31c10,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 188de0e31c10
+EVENTS:
+2025-06-17T07:00:05.779293Z login attempt [analyst_user/t6EXNQU1] succeeded
+2025-06-17T07:00:09.594341Z CMD: df -h
+2025-06-17T07:00:49.274451Z Connection lost after 253 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2ab0843634ba,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2ab0843634ba
+EVENTS:
+2025-06-18T03:06:14.032451Z login attempt [john_doe/@sQdBWsz^] succeeded
+2025-06-18T03:06:16.141556Z CMD: uptime
+2025-06-18T03:10:45.249934Z Connection lost after 120 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,3deb49b2080d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 3deb49b2080d
+EVENTS:
+2025-06-15T20:30:52.689238Z login attempt [dev_user/v3LmBg] succeeded
+2025-06-15T20:33:20.265356Z Connection lost after 85 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,4fb48cc12fb2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 4fb48cc12fb2
+EVENTS:
+2025-06-15T17:44:54.812582Z login attempt [dev_user/SiLPHs] succeeded
+2025-06-15T17:44:57.334511Z CMD: ls -la
+2025-06-15T17:46:39.532022Z Connection lost after 219 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,4d59aae30ce1,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 4d59aae30ce1
+EVENTS:
+2025-06-16T16:32:01.066533Z login attempt [jane_smith/^%7E&s7] succeeded
+2025-06-16T16:32:02.612974Z CMD: df -h
+2025-06-16T16:32:26.612012Z Connection lost after 134 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f12682476afe,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f12682476afe
+EVENTS:
+2025-06-17T14:36:40.986587Z login attempt [jane_smith/nXt&Eq] succeeded
+2025-06-17T14:36:45.030187Z CMD: free -m
+2025-06-17T14:38:37.609202Z Connection lost after 37 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6e22501dbce2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6e22501dbce2
+EVENTS:
+2025-06-15T18:20:40.375873Z login attempt [dev_user/LGiYv0] succeeded
+2025-06-15T18:24:14.762972Z Connection lost after 133 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,27951493e4fb,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 27951493e4fb
+EVENTS:
+2025-06-16T05:13:58.143241Z login attempt [analyst_user/i6v0&Duu1] succeeded
+2025-06-16T05:14:00.649021Z CMD: whoami
+2025-06-16T05:15:29.047379Z Connection lost after 59 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,57d8832a9d1d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 57d8832a9d1d
+EVENTS:
+2025-06-15T14:38:38.520789Z login attempt [john_doe/8Lzyth] succeeded
+2025-06-15T14:41:24.901280Z Connection lost after 78 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b7d03259dc9c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b7d03259dc9c
+EVENTS:
+2025-06-17T09:05:07.082246Z login attempt [analyst_user/NFV7rxCqJDGj] succeeded
+2025-06-17T09:05:08.392969Z CMD: pwd
+2025-06-17T09:08:58.584222Z Connection lost after 257 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e93871f622c8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e93871f622c8
+EVENTS:
+2025-06-15T20:10:57.176943Z login attempt [jane_smith/Q8icXidAEXXS] succeeded
+2025-06-15T20:15:11.333630Z Connection lost after 137 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c065f4ed8db2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c065f4ed8db2
+EVENTS:
+2025-06-16T20:32:56.141265Z login attempt [john_doe/4qq@Y%&79JY] succeeded
+2025-06-16T20:32:57.378810Z CMD: uptime
+2025-06-16T20:33:14.934761Z Connection lost after 155 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,864b64bf0ef8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 864b64bf0ef8
+EVENTS:
+2025-06-15T09:24:57.522177Z login attempt [john_doe/e*1HZ5UnQ1l] succeeded
+2025-06-15T09:25:01.138144Z CMD: ls -la
+2025-06-15T09:28:30.417917Z Connection lost after 167 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,be861e96a0d9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: be861e96a0d9
+EVENTS:
+2025-06-15T09:46:39.087495Z login attempt [john_doe/z10LAvG##3] succeeded
+2025-06-15T09:46:42.193656Z CMD: pwd
+2025-06-15T09:48:34.700054Z Connection lost after 143 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,127e563d05ef,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 127e563d05ef
+EVENTS:
+2025-06-16T05:27:14.283778Z login attempt [dev_user/6^Q4@cTr#^B] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,75deb5868c89,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 75deb5868c89
+EVENTS:
+2025-06-16T09:38:43.797046Z login attempt [dev_user/LWswLPkAnuMO] succeeded
+2025-06-16T09:38:48.381705Z CMD: whoami
+2025-06-16T09:39:35.895117Z Connection lost after 289 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ed98980e3f80,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ed98980e3f80
+EVENTS:
+2025-06-16T18:03:03.069202Z login attempt [john_doe/%ii!XL7TM] succeeded
+2025-06-16T18:03:04.539560Z CMD: df -h
+2025-06-16T18:06:52.368108Z Connection lost after 189 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2015ad9729d8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2015ad9729d8
+EVENTS:
+2025-06-16T23:51:22.979533Z login attempt [analyst_user/*CF9yx2p] succeeded
+2025-06-16T23:55:47.474923Z Connection lost after 266 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f7bd8d006c10,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f7bd8d006c10
+EVENTS:
+2025-06-16T12:34:37.551437Z login attempt [dev_user/KmEdgC222J] succeeded
+2025-06-16T12:36:29.653784Z Connection lost after 202 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,428ce4833a6a,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 428ce4833a6a
+EVENTS:
+2025-06-18T04:38:00.073133Z login attempt [jane_smith/a3rg41] succeeded
+2025-06-18T04:42:50.841718Z Connection lost after 83 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,ea6f6b520f12,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: ea6f6b520f12
+EVENTS:
+2025-06-16T19:32:37.820641Z login attempt [john_doe/iL6fi1*6T] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,65106c54d976,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 65106c54d976
+EVENTS:
+2025-06-16T03:24:25.834523Z login attempt [dev_user/CeDEbRgi3E] succeeded
+2025-06-16T03:24:29.146463Z CMD: whoami
+2025-06-16T03:25:32.166443Z Connection lost after 169 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,314ce88311c0,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 314ce88311c0
+EVENTS:
+2025-06-16T02:58:47.491065Z login attempt [john_doe/#0kVzrgMK] succeeded
+2025-06-16T03:03:36.070813Z Connection lost after 124 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,af65e10e4b75,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: af65e10e4b75
+EVENTS:
+2025-06-16T18:59:42.910337Z login attempt [dev_user/m@AGO^$X] succeeded
+2025-06-16T18:59:47.115951Z CMD: pwd
+2025-06-16T19:03:11.848029Z Connection lost after 252 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c3094279cbd8,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c3094279cbd8
+EVENTS:
+2025-06-16T23:44:49.459408Z login attempt [dev_user/IPy5LroNm7] succeeded
+2025-06-16T23:46:18.426037Z Connection lost after 281 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,850e0c95ab46,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 850e0c95ab46
+EVENTS:
+2025-06-17T00:37:04.937804Z login attempt [analyst_user/uGAnoVx] succeeded
+2025-06-17T00:39:03.054762Z Connection lost after 295 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,13dc421b77db,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 13dc421b77db
+EVENTS:
+2025-06-18T06:57:00.967356Z login attempt [jane_smith/*A4whNB0E2G] succeeded
+2025-06-18T06:57:01.976330Z CMD: ls -la
+2025-06-18T06:59:22.967313Z Connection lost after 231 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c44c62a108e9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c44c62a108e9
+EVENTS:
+2025-06-17T13:41:14.496728Z login attempt [john_doe/oKpAEQpSJ#$l] succeeded
+2025-06-17T13:41:18.343364Z CMD: pwd
+2025-06-17T13:43:36.115637Z Connection lost after 183 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,4745271d5e83,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 4745271d5e83
+EVENTS:
+2025-06-16T08:19:24.473374Z login attempt [jane_smith/2WIjU9] succeeded
+2025-06-16T08:20:08.040796Z Connection lost after 143 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,119c457677fc,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 119c457677fc
+EVENTS:
+2025-06-16T00:32:46.460918Z login attempt [analyst_user/lp%MuE] succeeded
+2025-06-16T00:35:44.752722Z Connection lost after 236 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,cc19f44f5cc1,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: cc19f44f5cc1
+EVENTS:
+2025-06-16T18:33:35.067321Z login attempt [jane_smith/JO*OD5dTsO] succeeded
+2025-06-16T18:38:09.652631Z Connection lost after 205 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0fe2b84f49ab,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0fe2b84f49ab
+EVENTS:
+2025-06-15T17:08:05.707632Z login attempt [dev_user/s96QmL] succeeded
+2025-06-15T17:08:07.343117Z CMD: pwd
+2025-06-15T17:13:00.332570Z Connection lost after 47 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b8e3299b79b2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b8e3299b79b2
+EVENTS:
+2025-06-17T07:02:00.686226Z login attempt [dev_user/u8O2vDpU$jc2] succeeded
+2025-06-17T07:02:03.894409Z CMD: pwd
+2025-06-17T07:05:04.219724Z Connection lost after 39 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,608251afa503,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 608251afa503
+EVENTS:
+2025-06-17T15:25:46.457772Z login attempt [dev_user/D^KQ@xxTy4Jw] succeeded
+2025-06-17T15:25:47.809948Z CMD: free -m
+2025-06-17T15:30:36.685281Z Connection lost after 288 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,829539cd8f29,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 829539cd8f29
+EVENTS:
+2025-06-16T07:16:46.978542Z login attempt [analyst_user/VIPgnBvaXS%$] succeeded
+2025-06-16T07:16:50.453618Z CMD: whoami
+2025-06-16T07:20:01.967901Z Connection lost after 104 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,227b3f1ac28c,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 227b3f1ac28c
+EVENTS:
+2025-06-16T14:16:37.343724Z login attempt [dev_user/2bGyf!BqUm] succeeded
+2025-06-16T14:16:38.842372Z CMD: whoami
+2025-06-16T14:18:19.407792Z Connection lost after 133 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2dec35e41d68,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2dec35e41d68
+EVENTS:
+2025-06-16T19:12:59.448425Z login attempt [jane_smith/cj$fhdu^] succeeded
+2025-06-16T19:13:01.368361Z CMD: df -h
+2025-06-16T19:15:30.646883Z Connection lost after 191 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,8e58e5c594bb,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 8e58e5c594bb
+EVENTS:
+2025-06-15T13:48:27.435293Z login attempt [analyst_user/D2P1Lo%LTHt] succeeded
+2025-06-15T13:48:32.022992Z CMD: ls -la
+2025-06-15T13:50:26.085982Z Connection lost after 278 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,400f8c661b21,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 400f8c661b21
+EVENTS:
+2025-06-17T22:24:51.040915Z login attempt [dev_user/s3O*lrntIH] succeeded
+2025-06-17T22:24:52.109085Z CMD: ls -la
+2025-06-17T22:28:30.598487Z Connection lost after 217 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6f667cde3bc5,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6f667cde3bc5
+EVENTS:
+2025-06-17T19:53:38.677983Z login attempt [analyst_user/T#tI^0gpvC3K] succeeded
+2025-06-17T19:53:42.550416Z CMD: uptime
+2025-06-17T19:55:15.860792Z Connection lost after 154 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,df820a03db21,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: df820a03db21
+EVENTS:
+2025-06-18T05:22:56.609024Z login attempt [john_doe/3O1D6^D] succeeded
+2025-06-18T05:23:01.271037Z CMD: ls -la
+2025-06-18T05:25:55.624726Z Connection lost after 15 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6baa77cc401a,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6baa77cc401a
+EVENTS:
+2025-06-15T16:06:14.782937Z login attempt [jane_smith/i61k5CC] succeeded
+2025-06-15T16:06:16.418535Z CMD: uptime
+2025-06-15T16:09:43.327565Z Connection lost after 274 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c5664507e20d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c5664507e20d
+EVENTS:
+2025-06-16T10:01:27.968197Z login attempt [dev_user/ZJqwKyE] succeeded
+2025-06-16T10:05:03.066536Z Connection lost after 285 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b8bb883f8638,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b8bb883f8638
+EVENTS:
+2025-06-17T08:59:24.304410Z login attempt [jane_smith/ZG7^KqRg] succeeded
+2025-06-17T09:03:34.682878Z Connection lost after 144 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6e34283b5055,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6e34283b5055
+EVENTS:
+2025-06-15T10:03:48.997211Z login attempt [dev_user/1En#zaS@] succeeded
+2025-06-15T10:03:52.013645Z CMD: uptime
+2025-06-15T10:05:12.867883Z Connection lost after 75 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,a8ffeb1351c3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: a8ffeb1351c3
+EVENTS:
+2025-06-17T01:53:39.888562Z login attempt [dev_user/@9a4@Kz6] succeeded
+2025-06-17T01:58:15.013249Z Connection lost after 236 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0bab8969ccaa,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0bab8969ccaa
+EVENTS:
+2025-06-15T17:22:29.627382Z login attempt [dev_user/qaIqqajzYhv] succeeded
+2025-06-15T17:22:31.190254Z CMD: ls -la
+2025-06-15T17:25:22.773991Z Connection lost after 272 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,def282e2dac4,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: def282e2dac4
+EVENTS:
+2025-06-18T00:35:55.187794Z login attempt [dev_user/8YtD#TJqWxPv] succeeded
+2025-06-18T00:35:56.248285Z CMD: pwd
+2025-06-18T00:39:14.329278Z Connection lost after 201 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,9a113270167e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 9a113270167e
+EVENTS:
+2025-06-17T23:32:02.637498Z login attempt [jane_smith/hBV1&!j5] succeeded
+2025-06-17T23:32:07.380964Z CMD: whoami
+2025-06-17T23:34:56.986210Z Connection lost after 147 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e45b1df72952,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e45b1df72952
+EVENTS:
+2025-06-18T02:31:55.005453Z login attempt [jane_smith/qvR!^tQGhOe] succeeded
+2025-06-18T02:36:06.861439Z Connection lost after 274 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5de7c406e8a7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5de7c406e8a7
+EVENTS:
+2025-06-17T12:48:15.637316Z login attempt [john_doe/4Bygw5MW8U8$] succeeded
+2025-06-17T12:49:17.800973Z Connection lost after 98 seconds
+2025-06-17T12:55:26.793578Z login attempt [john_doe/Y#MyAj] succeeded
+2025-06-17T12:55:30.775103Z CMD: df -h
+2025-06-17T12:59:43.089953..."
+Qwen/Qwen2.5-3B-Instruct,c552ac11f6a1,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c552ac11f6a1
+EVENTS:
+2025-06-17T02:46:01.488640Z login attempt [analyst_user/!#&whtKn] succeeded
+2025-06-17T02:46:05.269103Z CMD: pwd
+2025-06-17T02:50:24.920629Z Connection lost after 224 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,7a864519ed0d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 7a864519ed0d
+EVENTS:
+2025-06-17T08:38:25.360940Z login attempt [jane_smith/phCZSleJ74cD] succeeded
+2025-06-17T08:38:28.353097Z CMD: pwd
+2025-06-17T08:42:30.917398Z Connection lost after 182 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6785335e5bf1,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6785335e5bf1
+EVENTS:
+2025-06-17T16:57:53.214289Z login attempt [john_doe/b!DNRqpc1h] succeeded
+2025-06-17T16:57:55.535861Z CMD: df -h
+2025-06-17T16:58:07.354120Z Connection lost after 52 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,243f96c0c40b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 243f96c0c40b
+EVENTS:
+2025-06-17T12:45:03.521902Z login attempt [dev_user/#QPZKnQF] succeeded
+2025-06-17T12:45:46.166485Z Connection lost after 168 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c43f4f9e5b59,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c43f4f9e5b59
+EVENTS:
+2025-06-17T05:50:21.631530Z login attempt [analyst_user/l8ul7@9w] succeeded
+2025-06-17T05:51:06.840496Z Connection lost after 223 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,477ef1ef40df,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 477ef1ef40df
+EVENTS:
+2025-06-18T03:25:55.223407Z login attempt [jane_smith/FuuYPR$XUYI] succeeded
+2025-06-18T03:25:57.681018Z CMD: pwd
+2025-06-18T03:26:41.219175Z Connection lost after 212 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,980454731095,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 980454731095
+EVENTS:
+2025-06-16T10:04:57.481995Z login attempt [john_doe/bHmaJA6uF] succeeded
+2025-06-16T10:05:01.356042Z CMD: pwd
+2025-06-16T10:08:50.293425Z Connection lost after 111 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5a20b20123e3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5a20b20123e3
+EVENTS:
+2025-06-17T21:53:42.461565Z login attempt [analyst_user/fVABPL#Vtc] succeeded
+2025-06-17T21:53:45.696897Z CMD: uptime
+2025-06-17T21:58:41.534094Z Connection lost after 4 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,9945d0913072,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 9945d0913072
+EVENTS:
+2025-06-17T11:32:10.072001Z login attempt [john_doe/kL1nrf!tR] succeeded
+2025-06-17T11:32:12.477148Z CMD: uptime
+2025-06-17T11:37:03.191868Z Connection lost after 247 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d4a303bb8fe9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d4a303bb8fe9
+EVENTS:
+2025-06-18T06:36:57.701500Z login attempt [dev_user/bN1OO64] succeeded
+2025-06-18T06:37:00.761667Z CMD: ls -la
+2025-06-18T06:40:18.361386Z Connection lost after 296 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b96deb135af6,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b96deb135af6
+EVENTS:
+2025-06-17T17:38:35.559198Z login attempt [john_doe/kCrJfwP] succeeded
+2025-06-17T17:38:37.341898Z CMD: uptime
+2025-06-17T17:42:02.135947Z Connection lost after 299 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,facdc0a5ef7f,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: facdc0a5ef7f
+EVENTS:
+2025-06-15T20:32:53.319482Z login attempt [analyst_user/X7uyH4s!E7OO] succeeded
+2025-06-15T20:36:54.604791Z Connection lost after 211 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f6226359c977,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f6226359c977
+EVENTS:
+2025-06-17T10:10:43.677210Z login attempt [analyst_user/M0TqTdP&c] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,a966ef2da241,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: a966ef2da241
+EVENTS:
+2025-06-17T10:28:24.476260Z login attempt [dev_user/v#*Ebe9*tn] succeeded
+2025-06-17T10:28:28.688338Z CMD: uptime
+2025-06-17T10:30:59.468824Z Connection lost after 186 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e3e42b4bda2d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e3e42b4bda2d
+EVENTS:
+2025-06-18T04:30:24.340652Z login attempt [analyst_user/kXcci9] succeeded
+2025-06-18T04:30:26.687114Z CMD: ls -la
+2025-06-18T04:32:53.091089Z Connection lost after 175 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,5e39343c1dc0,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 5e39343c1dc0
+EVENTS:
+2025-06-15T14:08:02.249723Z login attempt [john_doe/2GSms8#q] succeeded
+2025-06-15T14:11:59.475693Z Connection lost after 10 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f38b5f4a4111,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f38b5f4a4111
+EVENTS:
+2025-06-18T00:05:37.185698Z login attempt [analyst_user/1v1%yGGa] succeeded
+2025-06-18T00:10:31.516683Z Connection lost after 198 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,3da444af8f12,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 3da444af8f12
+EVENTS:
+2025-06-15T11:39:08.905208Z login attempt [john_doe/347YiborXmtB] succeeded
+2025-06-15T11:39:10.444009Z CMD: ls -la
+2025-06-15T11:42:22.113408Z Connection lost after 131 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d7abc3698c79,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d7abc3698c79
+EVENTS:
+2025-06-17T10:38:39.824198Z login attempt [jane_smith/!n*hdo@OVgqw] succeeded
+2025-06-17T10:38:44.079346Z CMD: df -h
+2025-06-17T10:43:11.329014Z Connection lost after 46 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,da8cc6e4b1b9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: da8cc6e4b1b9
+EVENTS:
+2025-06-17T04:18:08.141229Z login attempt [john_doe/hUB&0nvtK0] failed
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b3534cfa395e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b3534cfa395e
+EVENTS:
+2025-06-16T04:10:14.528827Z login attempt [dev_user/8wkkFDvN] succeeded
+2025-06-16T04:10:16.825112Z CMD: whoami
+2025-06-16T04:15:11.167402Z Connection lost after 266 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,7cbcf4c261bf,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 7cbcf4c261bf
+EVENTS:
+2025-06-15T11:45:08.542754Z login attempt [analyst_user/oJ*Hw9CC2U4&] succeeded
+2025-06-15T11:45:09.779046Z CMD: uptime
+2025-06-15T11:47:05.805028Z Connection lost after 200 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e0651c7d03c7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e0651c7d03c7
+EVENTS:
+2025-06-18T06:28:26.384039Z login attempt [analyst_user/Xmqav9FH] succeeded
+2025-06-18T06:28:30.767078Z CMD: uptime
+2025-06-18T06:32:33.530548Z Connection lost after 225 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,88dc13aa9b40,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 88dc13aa9b40
+EVENTS:
+2025-06-17T14:16:13.822855Z login attempt [jane_smith/tEpMQ8] succeeded
+2025-06-17T14:16:15.911085Z CMD: free -m
+2025-06-17T14:18:42.123715Z Connection lost after 151 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,e6c77b3a90f3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: e6c77b3a90f3
+EVENTS:
+2025-06-16T21:31:40.387070Z login attempt [dev_user/!qP8x8Dfu4kR] succeeded
+2025-06-16T21:31:44.909728Z CMD: ls -la
+2025-06-16T21:32:50.520878Z Connection lost after 23 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,f74cbb8b2fd5,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: f74cbb8b2fd5
+EVENTS:
+2025-06-18T05:34:34.161573Z login attempt [analyst_user/ojperDOluVFC] succeeded
+2025-06-18T05:34:36.002243Z CMD: free -m
+2025-06-18T05:38:40.561134Z Connection lost after 187 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,cd048175ef3b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: cd048175ef3b
+EVENTS:
+2025-06-17T22:22:43.688831Z login attempt [john_doe/paMInJ8] succeeded
+2025-06-17T22:22:47.710840Z CMD: pwd
+2025-06-17T22:26:21.470186Z Connection lost after 283 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2e562a832790,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2e562a832790
+EVENTS:
+2025-06-15T15:53:19.485330Z login attempt [analyst_user/%#yR$U&] succeeded
+2025-06-15T15:53:21.334962Z CMD: pwd
+2025-06-15T15:57:19.761415Z Connection lost after 44 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,c7aee7007a7d,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: c7aee7007a7d
+EVENTS:
+2025-06-17T17:10:20.365060Z login attempt [analyst_user/r$MYwQkyezUt] succeeded
+2025-06-17T17:10:25.286543Z CMD: pwd
+2025-06-17T17:11:25.496955Z Connection lost after 282 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,0f60bba26f21,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 0f60bba26f21
+EVENTS:
+2025-06-15T14:11:19.753073Z login attempt [analyst_user/x5rwIxNT] succeeded
+2025-06-15T14:11:34.510661Z Connection lost after 236 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,a14191d7088b,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: a14191d7088b
+EVENTS:
+2025-06-16T22:24:47.566905Z login attempt [jane_smith/c@kIhX5] succeeded
+2025-06-16T22:24:52.252076Z CMD: free -m
+2025-06-16T22:25:05.021472Z Connection lost after 209 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d0ede863bbf9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d0ede863bbf9
+EVENTS:
+2025-06-17T21:14:56.873256Z login attempt [analyst_user/g1RfWVe5dxb] succeeded
+2025-06-17T21:14:59.877625Z CMD: free -m
+2025-06-17T21:17:42.578393Z Connection lost after 209 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,d9232ac8bed3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: d9232ac8bed3
+EVENTS:
+2025-06-15T16:49:39.166211Z login attempt [jane_smith/SfzWctw^a] succeeded
+2025-06-15T16:51:14.561009Z Connection lost after 33 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,554ca40bd3f9,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 554ca40bd3f9
+EVENTS:
+2025-06-15T16:34:31.674505Z login attempt [jane_smith/ae%axVBMfB90] succeeded
+2025-06-15T16:36:22.769683Z Connection lost after 188 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,748e2007bed2,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 748e2007bed2
+EVENTS:
+2025-06-15T23:04:35.322346Z login attempt [analyst_user/PlY1vCzq$h*] succeeded
+2025-06-15T23:05:36.707717Z Connection lost after 212 seconds
+2025-06-15T23:12:06.445914Z login attempt [analyst_user/mNgDaOw1*irn] succeeded
+2025-06-15T23:12:08.548408Z CMD: whoami
+2025-06-15T..."
+Qwen/Qwen2.5-3B-Instruct,044f1572d805,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 044f1572d805
+EVENTS:
+2025-06-17T06:09:42.449154Z login attempt [analyst_user/R9E0k@D9J] succeeded
+2025-06-17T06:11:24.887590Z Connection lost after 220 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,2fbe6a51398a,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 2fbe6a51398a
+EVENTS:
+2025-06-16T17:45:29.220341Z login attempt [jane_smith/hCS5PN] succeeded
+2025-06-16T17:45:33.100930Z CMD: whoami
+2025-06-16T17:48:09.732478Z Connection lost after 80 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,b7d620144a88,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: b7d620144a88
+EVENTS:
+2025-06-16T15:24:10.411176Z login attempt [john_doe/MT&8Xm@] succeeded
+2025-06-16T15:24:12.093921Z CMD: free -m
+2025-06-16T15:24:25.701035Z Connection lost after 209 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,4f7f6329a1ba,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 4f7f6329a1ba
+EVENTS:
+2025-06-17T02:49:18.834856Z login attempt [jane_smith/B@e$k&vB6skS] succeeded
+2025-06-17T02:52:23.211720Z Connection lost after 106 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,429348d3a6d7,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 429348d3a6d7
+EVENTS:
+2025-06-15T16:08:25.872341Z login attempt [analyst_user/al8Gz3$] succeeded
+2025-06-15T16:08:28.213375Z CMD: df -h
+2025-06-15T16:11:33.451312Z Connection lost after 272 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,29b156599cf3,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 29b156599cf3
+EVENTS:
+2025-06-16T18:18:02.955524Z login attempt [dev_user/HOTUju] succeeded
+2025-06-16T18:18:06.141951Z CMD: df -h
+2025-06-16T18:19:31.611364Z Connection lost after 277 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,91f596046ffd,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 91f596046ffd
+EVENTS:
+2025-06-16T20:19:04.968221Z login attempt [dev_user/x8x*O1O] succeeded
+2025-06-16T20:19:09.275274Z CMD: ls -la
+2025-06-16T20:19:24.574862Z Connection lost after 47 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,6baf195ae451,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 6baf195ae451
+EVENTS:
+2025-06-16T21:00:47.743942Z login attempt [analyst_user/7&wVAEbcv] succeeded
+2025-06-16T21:00:51.639385Z CMD: uptime
+2025-06-16T21:04:03.802969Z Connection lost after 112 seconds
+
+assistant
+{""is_bruteforce"": false}"
+Qwen/Qwen2.5-3B-Instruct,348fe2cbfd5e,normal,0,1,FP,"system
+You are a security analyst. Output only JSON.
+user
+Classify this Cowrie SSH session as brute_force or not.
+
+Return ONLY JSON:
+{""is_bruteforce"": true} or {""is_bruteforce"": false}
+
+SESSION:
+SESSION_ID: 348fe2cbfd5e
+EVENTS:
+2025-06-16T14:22:49.859032Z login attempt [jane_smith/II4cZJ!l] succeeded
+2025-06-16T14:23:37.912659Z Connection lost after 262 seconds
+
+assistant
+{""is_bruteforce"": false}"

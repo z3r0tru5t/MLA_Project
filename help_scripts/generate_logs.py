@@ -97,7 +97,6 @@ def generate_logs(input_csv: str, output_log: str) -> None:
 
             ts_out = format_timestamp(ts)
             message = format_log_message(row)
-
             detail = (row.get("label") or "").strip()
 
             line = f"{ts_out} {session_id} {message};{detail}\n"
